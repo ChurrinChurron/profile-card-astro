@@ -1,0 +1,74 @@
+.card {
+
+    max-width: 22em;
+    border-radius: 1em;
+    background: #242323;
+    text-align: center;
+    box-shadow: 0 0 5px 5px #1e1e1e;
+}
+
+.card__content {
+
+    padding: 2em 3em;
+}
+
+.card img {
+
+    border-radius: 50%;
+    width: 9em;
+    margin: 0 auto;
+    display: block;
+}
+
+.card h2 {
+
+    font-size: 1.2em;
+    margin: 1em 0 0 0;
+    color: #bbbbbb;
+}
+
+.card h3 {
+
+    background: #1e1d1d;
+    color: #828282;
+    border-radius: 4em;
+    display: inline-block;
+    padding: .2em 1em;
+    font-size: .9em;
+}
+
+.card p {
+
+    margin: 1em 0 0 0;
+    color: #bbbbbb;
+}
+
+.card__media {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.5em;
+    padding: 2em;
+    background: #1f1e1e;
+}
+
+.card__media a i {
+
+    font-size: 1.4em;
+}
+
+.fa-twitter {
+
+    color: #76a9ea;
+}
+
+.fa-linkedin {
+
+    color: #0984c6;
+}
+
+.fa-facebook-f {
+
+    color: #446ca3;
+}

@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+<Layout title="Profile Card">
+	<main>
+		<Card 
+			userImg="https://randomuser.me/api/portraits/lego/6.jpg"
+			userName="Santiago Rodriguez"
+			userLocation="Berkeley, CA"
+			userDesc="Ethnographer of computation and computational ethnographerr; research staff at the Berkeley Institute for Data Science"
+			userTwitter="https://twitter.com/?lang=es"
+			userLinkedin="https://www.linkedin.com/feed/"
+			userFacebook="https://www.facebook.com/?locale=es_LA"/>
+	</main>
+</Layout>
+
+<style>
+	main {
+		display: grid;
+		place-items: center;
+		height: 100vh;
+	}
+</style>

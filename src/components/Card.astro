@@ -1,0 +1,30 @@
+
+---
+import "../styles/Card.css"
+
+interface Props {
+	userImg: string;
+	userName: string;
+	userLocation: string;
+	userDesc: string;
+	userTwitter: string;
+	userLinkedin: string;
+	userFacebook: string;
+}
+
+const { userImg, userName, userLocation, userDesc, userTwitter, userLinkedin, userFacebook } = Astro.props;
+---
+
+<div class="card">
+	<div class="card__content">
+		<img src={userImg} alt={userName}/>
+		<h2>{userName}</h2>
+		<h3>{userLocation}</h3>
+		<p>{userDesc}</p>
+	</div>
+	<div class="card__media">
+		<a href={userTwitter}><i class="fa-brands fa-twitter"></i></a>
+		<a href={userLinkedin}><i class="fa-brands fa-linkedin"></i></a>
+		<a href={userFacebook}><i class="fa-brands fa-facebook-f"></i></a>
+	</div>
+</div>
